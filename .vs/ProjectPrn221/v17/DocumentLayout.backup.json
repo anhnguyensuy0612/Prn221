@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HoangAnh\\source\\repos\\ProjectPrn221\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA884B73-D4DC-4680-9C62-428BC6F4E864}|ProjectPrn221\\ProjectPrn221.csproj|c:\\users\\hoanganh\\source\\repos\\projectprn221\\projectprn221\\projectprn221.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA884B73-D4DC-4680-9C62-428BC6F4E864}|ProjectPrn221\\ProjectPrn221.csproj|solutionrelative:projectprn221\\projectprn221.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA884B73-D4DC-4680-9C62-428BC6F4E864}|ProjectPrn221\\ProjectPrn221.csproj|c:\\users\\hoanganh\\source\\repos\\projectprn221\\projectprn221\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA884B73-D4DC-4680-9C62-428BC6F4E864}|ProjectPrn221\\ProjectPrn221.csproj|solutionrelative:projectprn221\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectPrn221",
+              "DocumentMoniker": "C:\\Users\\HoangAnh\\source\\repos\\ProjectPrn221\\ProjectPrn221\\ProjectPrn221.csproj",
+              "RelativeDocumentMoniker": "ProjectPrn221\\ProjectPrn221.csproj",
+              "ToolTip": "C:\\Users\\HoangAnh\\source\\repos\\ProjectPrn221\\ProjectPrn221\\ProjectPrn221.csproj*",
+              "RelativeToolTip": "ProjectPrn221\\ProjectPrn221.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-29T12:28:07.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HoangAnh\\source\\repos\\ProjectPrn221\\ProjectPrn221\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectPrn221\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HoangAnh\\source\\repos\\ProjectPrn221\\ProjectPrn221\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectPrn221\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:26:31.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
