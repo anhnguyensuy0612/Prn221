@@ -6,46 +6,75 @@
     <title>@ViewData["Title"] - ProjectPrn221</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ProjectPrn221.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <!-- Topbar -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">ProjectPrn221</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/About">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Rules">Nội quy</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Services">Dịch vụ</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Contact">Liên hệ</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/Login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Register">Register</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <!-- Main content -->
+    <div class="container content">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
-            &copy; 2024 - ProjectPrn221 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>FPTU Library</h6>
+                    <p>Phòng 107, nhà Delta, Trường Đại học FPT<br>Km29 Đại lộ Thăng Long, Thạch Thất, Hà Nội</p>
+                    <p>Email: <a href="mailto:thuvien_fu_hoalac@fe.edu.vn">thuvien_fu_hoalac@fe.edu.vn</a></p>
+                    <p>Phone: 02466 805 912</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a asp-area="" asp-page="/About">Giới thiệu</a></li>
+                        <li><a asp-area="" asp-page="/Privacy">Nội quy</a></li>
+                        <li><a asp-area="" asp-page="/Contact">Liên hệ</a></li>
+                        <li><a asp-area="" asp-page="/Support">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Follow Us</h6>
+                    <a href="#"><img src="~/images/facebook-icon.png" alt="Facebook" style="width: 24px;"></a>
+                    <a href="#"><img src="~/images/twitter-icon.png" alt="Twitter" style="width: 24px;"></a>
+                    <a href="#"><img src="~/images/instagram-icon.png" alt="Instagram" style="width: 24px;"></a>
+                    <p class="mt-3">&copy; 2024 - ProjectPrn221</p>
+                </div>
+            </div>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -67,3 +67,4 @@ C:\Users\HoangAnh\source\repos\ProjectPrn221\ProjectPrn221\obj\Debug\net6.0\refi
 C:\Users\HoangAnh\source\repos\ProjectPrn221\ProjectPrn221\obj\Debug\net6.0\ProjectPrn221.pdb
 C:\Users\HoangAnh\source\repos\ProjectPrn221\ProjectPrn221\obj\Debug\net6.0\ProjectPrn221.genruntimeconfig.cache
 C:\Users\HoangAnh\source\repos\ProjectPrn221\ProjectPrn221\obj\Debug\net6.0\ref\ProjectPrn221.dll
+C:\Users\HoangAnh\source\repos\ProjectPrn221\ProjectPrn221\obj\Debug\net6.0\ProjectPrn221.sourcelink.json
